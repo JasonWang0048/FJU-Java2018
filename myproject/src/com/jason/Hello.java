@@ -4,6 +4,18 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Student stu = new Student("Hank", 70, 90);
+		stu.print();
+		
+		System.out.println(5 >= 9);
+		String s1 = new String("abc");
+		String s2 = new String("abc");
+		System.out.println(s1 == s2);
+		
+		String s1 = "abc";
+		String s2 = "abc";
+		System.out.println(s1 == s2);
+		
 		Person  p = new Person(49.5f, 1.7f);
 //		p.weight = 49.5f;
 //		p.height = 1.7f;
