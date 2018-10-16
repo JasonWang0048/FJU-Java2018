@@ -12,9 +12,9 @@ public class Hello {
 		String s2 = new String("abc");
 		System.out.println(s1 == s2);
 		
-		String s1 = "abc";
-		String s2 = "abc";
-		System.out.println(s1 == s2);
+//		String s1 = "abc";
+//		String s2 = "abc";
+//		System.out.println(s1 == s2);
 		
 		Person  p = new Person(49.5f, 1.7f);
 //		p.weight = 49.5f;
