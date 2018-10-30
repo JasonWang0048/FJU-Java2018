@@ -1,11 +1,46 @@
 package com.jason;
 
-//import java.util.Scanner;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+//		int start = 1;
+//		Random random = new Random();
+//		System.out.println("Please guess a number:");
+//		Scanner num = new Scanner(System.in);
+//		while(random != num) {
+			
+//		}
+		
+		
+		System.out.print("Please enter temperature(Celsius):");
+		Scanner scanner = new Scanner(System.in);
+		double c = scanner.nextDouble();
+		Temperature temp = new Temperature(c);
+		System.out.printf("%.1f C = %.1f F\nKelvin: %.1f K\n", c, temp.fahreheit(), temp.kelvin());
+		
+//		Exercise 3.2
+//		System.out.println("Please enter a Celsius:");
+//		Scanner scanner = new Scanner(System.in);
+//		double c = scanner.nextDouble();
+//		double f = (c * (9 / 5.0)) + 32;
+//		System.out.printf("%.1f C = %.1f F", c, f);
+		
+		int n = 3 / 5;
+		System.out.println(n);
+		float m = 3 / 5.0f;
+		System.out.println(m);
+		int x = 7 / 3;
+		System.out.println(x);
+		float y = 7.0f / 3;
+		System.out.println(y);
+		float z = 87.878787f;
+		System.out.printf("Welcome, %s. Your grade: %.2f\n", "Jason", z);
+		
 //		Scanner scanner = new Scanner(System.in);
 //		String x = scanner.nextLine();
 //		System.out.println(x);
