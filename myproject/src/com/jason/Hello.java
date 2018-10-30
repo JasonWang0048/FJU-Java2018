@@ -10,10 +10,11 @@ public class Hello {
 		
 //		int start = 1;
 //		Random random = new Random();
+//		System.out.println(random);
 //		System.out.println("Please guess a number:");
 //		Scanner num = new Scanner(System.in);
 //		while(random != num) {
-			
+//			
 //		}
 		
 		
