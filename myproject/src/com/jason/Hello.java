@@ -9,14 +9,24 @@ public class Hello {
 		// TODO Auto-generated method stub
 		
 //		int start = 1;
-//		Random random = new Random();
-//		System.out.println(random);
-//		System.out.println("Please guess a number:");
-//		Scanner num = new Scanner(System.in);
-//		while(random != num) {
-//			
-//		}
-		
+		Random random = new Random();
+		int number = random.nextInt(100) + 1;
+		System.out.println(number);
+		System.out.print("Please guess a number: ");
+		Scanner guess = new Scanner(System.in);
+		int num = guess.nextInt();
+		while(number != num) {
+			System.out.println("Wrong guess.Try another.");
+//			int scan = guess.nextInt();
+			if(num > number) {
+				System.out.print("Guess a lower number: ");
+			}
+			else {
+				System.out.print("Guess a higher number: ");
+			}
+			num = guess.nextInt();	
+		}
+		System.out.println("Correct Answer!");
 		
 		System.out.print("Please enter temperature(Celsius):");
 		Scanner scanner = new Scanner(System.in);
